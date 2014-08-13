@@ -1,0 +1,32 @@
+{
+    "name":"isotope/isotope_controlling",
+    "description":"controlling with kreditor and debitor for Isotope eCommerce 1.X",
+    "keywords":["contao", "isotope", "kreditor", "debitor", "controlling"],
+    "type":"contao-module",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Kirsten Roschanski",
+            "homepage":"http://kirsten-roschanski.de"
+        },
+        {
+            "name":"Isotope Workgroup",
+            "homepage":"http://isotopeecommerce.org"
+        }
+    ],
+    "require":{
+        "php":">=5.3.2",
+        "contao/core":">=2.11,<3",
+        "isotope/isotope-core":">=1,<2"
+    },
+    "extra":{
+        "contao": {
+            "sources":{
+                "src": "system/modules/isotope_controlling"
+            }
+        },
+        "master": {
+            "master/1.0.0": "1.0.0"
+        }
+    }
+}
